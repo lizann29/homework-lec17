@@ -1,0 +1,41 @@
+header{
+    background-color: #e0bae4 ;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.0rem;
+    margin: 0 auto;
+}
+.nav-bar h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.ul-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.nav-a{
+     color: #000000;
+    transition: 0.7s ease;
+}
+.nav-a:hover{
+    color: red;
+ }
+ .hamburger-bar{
+    display: none;
+    cursor: pointer;
+} 
+ .individual-line{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: #000000 ;
+}  
